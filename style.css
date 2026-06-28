@@ -1,0 +1,14 @@
+.heading-background {
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 12px 690px;
+    align-items: right;
+}
+    .main-heading {
+    margin: 0;    
+    padding: 0;
+    color: black; 
+    font-family: sans-serif;
+    text-align: right;
+}
