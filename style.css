@@ -1,14 +1,25 @@
-.heading-background {
-    display: inline-block;
-    background-color: lightblue;
-    border-radius: 50px;
-    padding: 12px 690px;
-    align-items: right;
+.header {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  padding: 24px;
+  font-family: sans-serif;
 }
-    .main-heading {
-    margin: 0;    
-    padding: 0;
-    color: black; 
-    font-family: sans-serif;
-    text-align: right;
+
+.bubble {
+  background: lightblue;
+  border-radius: 50px;
+  padding: 14px 28px;
+  font-size: 18px;
+  color: #1a3a4a;
+  font-weight: 500;
 }
+
+.user-bubble{ 
+    flex: 1;
+   text-align: center; 
+    font-weight: bold;}
+.checklist-bubble{
+    flex: 3;
+    text-align: center;
+    font-weight: bold;}
